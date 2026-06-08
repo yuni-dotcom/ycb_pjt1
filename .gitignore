@@ -21,7 +21,9 @@ pip-delete-this-directory.txt
 # Virtual environment
 .venv/
 env/
-venv/
+v# naver-api-app 내부 숨김 파일/폴더 무시
+naver-api-app/.*/
+
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
